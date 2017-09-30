@@ -1,11 +1,11 @@
-resource "aws_eip_association" "eip_assoc" {
-  instance_id   = "${aws_instance.web.id}"
-  allocation_id = "eipalloc-e8b8d3c6"
-}
+#resource "aws_eip_association" "eip_assoc" {
+#  instance_id   = "${aws_instance.web.id}"
+#  allocation_id = "eipalloc-e8b8d3c6"
+#}
 
 resource "aws_instance" "web" {
   instance_type = "${var.instance_type}"
-  count = 2
+  count = 1
   ami = "${data.aws_ami.ubuntu_xenial.id}"
   key_name = "${var.key_name}"
   vpc_security_group_ids = ["${aws_security_group.web.id}"]
