@@ -45,6 +45,9 @@ variable "instance_type" {
   description = "AWS instance type"
 }
 
+variable "ami" {
+  default = "ami-2a123f4f"
+}
 
 ## Tags
 
