@@ -57,5 +57,5 @@ variable "env" {
 }
 
 variable "hostname" {
-  default = "test-wp-site"
+  default = "Jenkins-Automation"
 }
