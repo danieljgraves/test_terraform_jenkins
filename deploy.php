@@ -12,14 +12,10 @@
 	$body=@file_get_contents('php://input');
 	// The commands
 	$commands = array(
-<<<<<<< HEAD
 		'echo $PWD',
 		'whoami',
 		'sudo -Hu www-data git pull origin master',
 		'git status',
-=======
-		'git pull origin master',
->>>>>>> a4fbe48a26308d1d1971a06aae4582a1cd6a01f3
 		'git submodule sync',
 		'git submodule update'
 	);
