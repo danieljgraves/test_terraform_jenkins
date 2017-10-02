@@ -1,6 +1,6 @@
 resource "aws_security_group" "web" {
-  name        = "Web_Hosts"
-  description = "Web hosts"
+  name        = "Test_Jenkins_Hosts"
+  description = "Test Jenkinks hosts"
   vpc_id      = "${var.vpc_id}"
 
   ingress {
