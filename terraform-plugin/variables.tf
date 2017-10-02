@@ -57,5 +57,5 @@ variable "env" {
 }
 
 variable "hostname" {
-  default = "Jenkins-Automation"
+  default = "Jenkins-Test"
 }
