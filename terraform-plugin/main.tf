@@ -15,6 +15,8 @@ resource "aws_instance" "web" {
 
   provisioner "remote-exec" {
     inline = [
+	"sleep 10",
+	"sudo apt-get -y update",
 	"sudo apt-get -y update",
 	"echo Installing system updates DONE!",
 	"echo Proceeding to install Apache!",
