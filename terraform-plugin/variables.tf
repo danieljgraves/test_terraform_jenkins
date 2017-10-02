@@ -11,10 +11,6 @@ variable "eip" {
   default = "eipalloc-6fa6cd41"
 }
 
-variable "access_key" {}
-
-variable "secret_key" {}
-
 variable "sub1" {
   description = "Main subnet for US-East-2 VPC"
   default = "subnet-83b27bea"
