@@ -10,8 +10,8 @@
 	$commands = array(
 		'echo $PWD',
 		'whoami',
-                'sudo -Hu www-data git pull origin master',
-                'sudo -Hu www-data git status',
+                'git pull',
+                'git status',
 //              'sudo -Hu www-data git submodule sync',
 //              'sudo -Hu www-data git submodule update'
 //		'sudo -Hu www-data git submodule status',
